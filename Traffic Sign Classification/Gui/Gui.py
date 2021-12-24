@@ -5,7 +5,11 @@ from PIL import ImageTk, Image
 import numpy
 from keras.models import load_model
 path1 = 'E:/Traffic-sign-repo-n/Traffic Sign Classification/Gui/my_model.h5'
-model = load_model('my_model.h5')
+try:
+    model = load_model('my_model.h5')
+except:
+    model = load_model(path)
+    pass
 
 classes = { 1:'Speed limit (20km/h)',
             2:'Speed limit (30km/h)', 
