@@ -14,8 +14,8 @@ RUN pip install tensorflow && \
 ENV DISPLAY=host.docker.internal:0.0
 
 
-copy ./Gui/Gui.py /app/Gui.py
-Copy ./Gui/my_model.h5 /app/my_model.h5
+copy ./python/Gui.py /app/Gui.py
+Copy ./python/my_model.h5 /app/my_model.h5
 Copy ./Test /app/Test
 Copy ./Train /app/Train
 

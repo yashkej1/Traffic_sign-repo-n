@@ -1,0 +1,30 @@
+running clean
+'build\lib' does not exist -- can't clean it
+'build\bdist.win-amd64' does not exist -- can't clean it
+'build\scripts-3.7' does not exist -- can't clean it
+running sdist
+running egg_info
+creating Traffic_Sign_Classification.egg-info
+writing manifest file 'Traffic_Sign_Classification.egg-info\SOURCES.txt'
+writing manifest file 'Traffic_Sign_Classification.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: Check: missing required meta-data: url
+
+warning: Check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) should be supplied
+
+creating Traffic Sign Classification-1.0.dev0
+creating Traffic Sign Classification-1.0.dev0\Traffic_Sign_Classification.egg-info
+copying Gui.py -> Traffic Sign Classification-1.0.dev0
+copying setup.py -> Traffic Sign Classification-1.0.dev0
+copying Traffic_Sign_Classification.egg-info\PKG-INFO -> Traffic Sign Classification-1.0.dev0\Traffic_Sign_Classification.egg-info
+copying Traffic_Sign_Classification.egg-info\SOURCES.txt -> Traffic Sign Classification-1.0.dev0\Traffic_Sign_Classification.egg-info
+copying Traffic_Sign_Classification.egg-info\dependency_links.txt -> Traffic Sign Classification-1.0.dev0\Traffic_Sign_Classification.egg-info
+copying Traffic_Sign_Classification.egg-info\namespace_packages.txt -> Traffic Sign Classification-1.0.dev0\Traffic_Sign_Classification.egg-info
+copying Traffic_Sign_Classification.egg-info\top_level.txt -> Traffic Sign Classification-1.0.dev0\Traffic_Sign_Classification.egg-info
+copying Traffic_Sign_Classification.egg-info\zip-safe -> Traffic Sign Classification-1.0.dev0\Traffic_Sign_Classification.egg-info
+not copying Traffic_Sign_Classification.egg-info\SOURCES.txt (output up-to-date)
+creating dist
+Creating tar archive
+removing 'Traffic Sign Classification-1.0.dev0' (and everything under it)

@@ -4,7 +4,9 @@ from tkinter import *
 from PIL import ImageTk, Image
 import numpy
 from keras.models import load_model
-path1 = 'E:/Traffic-sign-repo-n/Traffic Sign Classification/Gui/my_model.h5'
+import pathlib
+path=str(pathlib.Path(__file__).parent.resolve())
+path+='\my_model.h5'
 try:
     model = load_model('my_model.h5')
 except:
